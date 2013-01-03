@@ -1,9 +1,5 @@
 #N3rd.stack:[java]
 
-Pour démarrer avec maven :
-- mvn clean install
-- mvn exec:java -Dexec.mainClass="Main" 
-
 >>*N3rd.stack:[java] se veut être "framework agnostic" (un peu comme Backbone). Elle apporte une base, vous pouvez ensuite utiliser ce que vous voulez pour la base de données ou la partie javascript.*
 
 >>*En ce qui me concerne j'utiliserais CouchDB pour la partie data, et une base de Backbone+Knockout+KnockBack pour la partie javascript*
